@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: transparent;
+}
+header .navs {
+  justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .active > .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active:hover,
+.navbar-light .navbar-nav .nav-link.show:hover,
+.navbar-light .navbar-nav .show > .nav-link:hover {
+  color: red;
+}
+
+#adopted .navs {
+  justify-content: flex-end;
+}
+
+#server {
+  background-color: #343A40;
+  justify-content: space-between;
+}
+#server .navs {
+  justify-content: flex-start;
+}
+#server .btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#server .btn button {
+  border: 1px solid white;
+  color: white;
+  padding: 5px 20px;
+  margin: 4px;
+  background-color: transparent;
+}
+#server .btn button:hover {
+  border: 1px solid #7CBD1E;
+  background-color: #7CBD1E;
+}
+
+#blogger .navs {
+  justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .active > .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active:hover,
+.navbar-light .navbar-nav .nav-link.show:hover,
+.navbar-light .navbar-nav .show > .nav-link:hover {
+  color: rgb(0, 145, 255);
+}
